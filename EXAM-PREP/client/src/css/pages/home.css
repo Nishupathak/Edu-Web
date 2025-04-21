@@ -1,0 +1,24 @@
+.HOME{
+    z-index: 5;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+    transition: 0.3s;
+}
+.svgAnimate{
+    animation-name: svgStart;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform: translateY(-100px) rotateZ(180deg);
+    opacity: 1;
+}
+@keyframes svgStart {
+    100%{
+        opacity: 1;
+        transform: translateY(0) rotateZ(180deg);
+    }
+}
+.HOME::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.courses_wrapper {
+    margin-bottom: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* web Development */
+.webDHeading {
+    width: 500px;
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    font-family: 'ubuntu', sans-serif;
+    text-align: left;
+    font-size: 55px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.earnSpan {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.237);
+    color: rgb(9, 86, 209);
+}
+
+.nameSpan {
+    position: absolute;
+    bottom: 3px;
+    left: 11%;
+    width: 750px;
+    font-size: 50px;
+    color: rgb(9, 86, 209);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.242);
+}
+
+.nameSpanR {
+    position: absolute;
+    bottom: 3px;
+    left: -28%;
+    width: 750px;
+    font-size: 50px;
+    color: rgb(9, 86, 209);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.242);
+}
+
+.nameSpanM {
+    position: absolute;
+    bottom: 3px;
+    left: -5%;
+    width: 750px;
+    font-size: 50px;
+    color: rgb(9, 86, 209);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.242);
+}
+
+.imageCollageWrapper {
+    height: 420px;
+    width: 420px;
+    right: 80px;
+    top: 150px;
+    position: absolute;
+}
+
+.imageCollageWrapper div {
+    margin-top: -7px;
+    background-color: aqua;
+    display: inline-flex;
+    height: 140px;
+    width: 140px;
+
+}
+
+.imageCollageWrapper .img1 {
+    background-color: rgba(255, 255, 0, 0.602);
+    border-radius: 50%;
+}
+
+.imageCollageWrapper .img2 {
+    background-color: rgba(255, 192, 203, 0.46);
+}
+
+.imageCollageWrapper .img3 {
+    background-color: white;
+}
+
+.imageCollageWrapper .img4 {
+    background-color: white;
+}
+
+.imageCollageWrapper .img5 {
+    background-color: rgba(221, 160, 221, 0.382);
+    border-top-left-radius: 100%;
+}
+
+.imageCollageWrapper .img6 {
+    background-color: rgba(255, 0, 0, 0.379);
+    border-radius: 50%;
+}
+
+.imageCollageWrapper .img7 {
+    background-color: rgba(0, 139, 139, 0.401);
+    border-radius: 50%;
+}
+
+.imageCollageWrapper .img8 {
+    background-color: bisque;
+}
+
+.imageCollageWrapper .img9 {
+    background-color: white;
+}
+
+.img9 img {
+    height: 100%;
+    width: 100%;
+}
+
+.img3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.img4 img {
+    height: 100%;
+    width: 100%;
+}
+
+.goToCourse {
+    position: absolute;
+    bottom: 100px;
+    left: 50vw;
+    height: 36px;
+    border-radius: 5px;
+    color: rgb(9, 86, 209);
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(9, 86, 209);
+}
+
+.BuyCourse {
+    position: absolute;
+    bottom: 100px;
+    left: 40vw;
+}
+
+.goToCourse:hover {
+    background-color: rgb(9, 86, 209);
+    color: white;
+    border: none;
+    transform: scale(1.1);
+}
+
+.course_Details {
+    z-index: -1;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(159, 196, 255, 0.453);
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseDetailsImg {
+    position: absolute;
+    height: 70%;
+    right: 100px;
+    transform: scale(1.5);
+    top: 20%;
+}
+
+.roadmapWrapper {
+    height: 80%;
+    width: 50vw;
+    z-index: 2;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+
+}
+
+.buyNowLink {
+    z-index: 10;
+    position: absolute;
+    bottom: -90vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    left: 35px;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    background-color: rgb(9, 86, 209);
+    border-radius: 10px;
+    transform: scale(0.8);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buyNowLink:hover {
+    transform: scale(1);
+}

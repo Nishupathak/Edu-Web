@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind:wght@700&family=Lobster&family=Mulish:wght@200&family=Oswald&family=Poiret+One&family=Roboto+Mono&family=Titillium+Web:wght@200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bookFindMain{
+    height: 100vh;
+
+}
+.pageHeading{
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    
+}
+.formWrapper{
+    text-align: center;
+}
+
+.wrapperBookPage{
+    width: 100vw;
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.homeBtn{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(9, 86, 209);
+    font-size: 12px;
+    left: 40px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    transition: 0.2s;
+    letter-spacing: 2px;
+}
+
+.homeBtn:hover{
+    background-color: rgb(9, 86, 209);
+    color: white;
+}
+.inputText{
+    height: 40px;
+    width: 550px;
+    margin: 20px 30px;
+    text-align: left;
+    padding-left: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+
+}
+.inputButton{
+    height: 40px;
+    width: 90px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(9, 86, 209);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+.inputButton:hover{
+    cursor: pointer;
+}
+
+.inputText:focus{
+    outline: none;
+}
+.bookWrapper{
+    width: 90vw;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.book{
+    height: 400px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    transition: 0.3s;
+}
+.bookImage{
+    height: 300px;
+    width: 220px;
+    display: inline-flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    overflow: hidden;
+}
+.bookImage img{
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+}
+.bookImage img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}

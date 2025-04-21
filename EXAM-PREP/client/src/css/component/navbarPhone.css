@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind:wght@700&family=Lobster&family=Mulish:wght@200&family=Oswald&family=Poiret+One&family=Roboto+Mono&family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBarPhoneWrapper::-webkit-scrollbar{
+    width: 0;
+}
+.navBarPhoneWrapper{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.navPhonoLogo{
+    visibility: visible;
+    height: 100%;
+    width: 250px;
+}
+.sideStickWrapper{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    z-index: 6;
+}
+.sideStick{
+    transform: scale(1.3) rotateZ(90deg);
+    color: rgb(9, 86, 209);
+    transition: 0.3s;
+}
+.sideBarPhone{
+    position: absolute;
+    width: 100vw;
+    height: 0px;
+    top: 100%;
+    left: 0;
+    height:70px;
+    z-index: 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.active2{
+    height:70px;
+}
+.navPhoneLink{
+    font-size: 0;
+    height: 30px;
+    width: 80px;
+    color: rgb(9, 86, 209);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: 0.3s;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.activeBar{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: 0.3s;
+    transform: translateY(0px);
+    font-size: 11px;
+    opacity: 1;
+}
+@media only screen and (max-width: 300px) {
+    .sideStickWrapper{
+        right: 0px;
+    }
+    .activeBar{
+        transform: scale(0.8);
+    }
+}
+
+

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish&family=Nunito+Sans:opsz,wght@6..12,700&family=Open+Sans:wght@500&family=Poppins:wght@100;400&family=Raleway:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+
+.subjectWrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subject {
+    width: 90%;
+    height: 300px;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(36, 167, 255, 0.134);
+}
+
+.subjectImg {
+    width: 22%;
+    height: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+.subjectImg img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.subjectImg img:hover{
+    transform: scale(1.2);
+}
+
+.subjectContent {
+    height: 90%;
+    width: 70%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subjectContent h1 {
+    text-align: left;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 10px;
+    font-size: 4rem;
+}
+
+.subjectContent ol {
+    width: 90%;
+    margin: 0% 5%;
+}
+
+.subjectContent ol li {
+    text-align: left;
+    margin: 5px 0px;
+}
+.btnWrapper{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.StartLearning{
+    height: 100%;
+    
+    margin: 0px 20px;
+}
+.PractiseProblems{
+    height: 100%;
+
+}
+.PractiseProblems,.StartLearning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: bold;
+    transition: 0.2s;
+}
+
+.subjectBtnLink{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #3C79F5;
+    border: 2px solid #3C79F5;
+    transition: 0.2s;
+}
+.subjectBtnLink:hover{
+    cursor: pointer;
+    background-color: rgba(36, 167, 255, 0.134);
+    color: black;
+}
+.subjectBtnLinkDark{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+.subjectBtnLinkDark:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.exploreMore{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;    
+    align-items: center;
+    font-family: 'ubuntu';
+    margin-bottom: 20px;
+    color: #3C79F5;
+    text-decoration: none;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
