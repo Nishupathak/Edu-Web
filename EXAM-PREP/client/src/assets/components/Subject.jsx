@@ -88,7 +88,7 @@ export const Subject = () => {
                     to={isAuthentic ? "" : "/signIn"}
                   >
                     {" "}
-                    Practise Problem
+                    Practice Problem
                   </Link>
                 </div>
               </div>

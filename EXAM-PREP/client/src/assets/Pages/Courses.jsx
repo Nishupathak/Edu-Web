@@ -53,8 +53,7 @@ useEffect(()=>{
               <div className="card-content">
                 <h2 className="card-title" style={{marginBottom:'15px'}} >{card.cName}</h2>
                 <p className="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Optio, culpa.
+                  small step counts to success.
                 </p>
                 <Link to={card.path} className="button">
                   Get Course

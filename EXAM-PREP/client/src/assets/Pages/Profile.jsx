@@ -68,7 +68,7 @@ export default function Profile({ email }) {
         <div className="options">
           <button className="status">
              <EmojiEventsIcon style={{color:'brown'}} />
-            <span>Rookie</span>
+            <span>Community Head</span>
           </button>
           <button className="edit-profile">
             <ChatIcon style={{color:'rgb(9, 86, 209)'}} />
